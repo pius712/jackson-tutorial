@@ -1,4 +1,8 @@
 package pius.jacksontutorial.profile
 
-class NullableProfile {
+data class NullableProfile(
+        val nickname:String?,
+        val bio:String?,
+        val age: Int
+) {
 }
